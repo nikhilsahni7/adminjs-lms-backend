@@ -103,6 +103,13 @@ const adminJs = new AdminJS({
     },
   ],
   rootPath: "/admin",
+  branding: {
+    companyName: "Nikhil Library",
+    logo: false,
+
+    favicon:
+      "https://cdn3.iconfinder.com/data/icons/education-209/64/education-education-books-learn-256.png",
+  },
   dashboard: {
     handler: async () => {
       return { some: "stats" };
